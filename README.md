@@ -57,7 +57,8 @@ the simple use of BottomNavigationView, a view of Material design;
         android:icon="@drawable/ic_notifications_black_24dp"
         android:title="@string/title_notifications" />
     </menu>
-### 其中的drawable资源为vector代码绘制的图形
+### 其中的drawable资源为vector代码绘制的图形。为了支持vector技术，还需要添加vector-drawable兼容包
+    compile 'com.android.support:support-vector-drawable:25.2.0'
 ### 1.  ic_home_black_24dp.xml
     <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="24dp"
