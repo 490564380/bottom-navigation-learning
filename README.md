@@ -126,4 +126,5 @@ the simple use of BottomNavigationView, a view of Material design;
             return false;
         }
     };
-    }
+    }
+# button选中的颜色是与ActionBar相同的，即corlor中的属性：colorPrimary
