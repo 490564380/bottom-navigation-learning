@@ -93,7 +93,7 @@ the simple use of BottomNavigationView, a view of Material design;
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
-##  5. 运行，被选中的menu就会自动变换颜色，但点击后阴影博文面积过大。且颜色未区分，显得诡异。在BottomNavigationView中添加如下属性，点击阴影都会被限制在框框内。
+##  5. 运行，被选中的menu就会自动变换颜色，但点击后阴影博文面积过大。且颜色未区分，显得诡异。在BottomNavigationView中添加如下属性，点击阴影都会被限制在框框内。button选中的颜色是与ActionBar相同的，即corlor中的属性：colorPrimary
     android:background="?android:attr/windowBackground"
 
 ## 6. 添加点击事件
@@ -126,5 +126,4 @@ the simple use of BottomNavigationView, a view of Material design;
             return false;
         }
     };
-    }
-# button选中的颜色是与ActionBar相同的，即corlor中的属性：colorPrimary
+    }
